@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_40447</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>111</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_40447</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>111</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|U5NDT8.1|</Hit_id>
+  <Hit_def>RecName: Full=Secologanin synthase; Short=CrSLS; AltName: Full=Cytochrome P450 72C; Short=CrCYP72C [Catharanthus roseus] &gt;gb|AGX93064.1| secologanin synthase [Catharanthus roseus] &gt;gb|AHK60848.1| secologanin synthase-like protein [Catharanthus roseus]</Hit_def>
+  <Hit_accession>U5NDT8</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.176</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>8.00112e-31</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MEMDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEMDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_hseq>
+      <Hsp_midline>MEMDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|Q05047.1|</Hit_id>
+  <Hit_def>RecName: Full=Secologanin synthase; Short=SLS; AltName: Full=CYPLXXII; AltName: Full=Cytochrome P450 72A1 [Catharanthus roseus] &gt;gb|AAA33106.1| cytochrome P-450 protein [Catharanthus roseus] &gt;prf||1909351A cytochrome P450 [Catharanthus roseus]</Hit_def>
+  <Hit_accession>Q05047</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>2.8385e-30</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MEMDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEMDMDTIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_hseq>
+      <Hsp_midline>MEMDMD IRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|AKF02530.1|</Hit_id>
+  <Hit_def>secologanin synthase-like protein 4 [Catharanthus roseus]</Hit_def>
+  <Hit_accession>AKF02530</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>1.82179e-28</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MEMDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEKDMDTIRKAIAATILALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_hseq>
+      <Hsp_midline>ME DMD IRKAIAATI ALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|AAA17732.1|</Hit_id>
+  <Hit_def>cytochrome P450 [Catharanthus roseus] &gt;gb|AKF02529.1| secologanin synthase-like protein 3 [Catharanthus roseus]</Hit_def>
+  <Hit_accession>AAA17732</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>2.16297e-28</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MEMDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEMDMYTIRKAIAATIFALVVAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_hseq>
+      <Hsp_midline>MEMDM  IRKAIAATIFALV+AWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|AGX93046.1|</Hit_id>
+  <Hit_def>secologanin synthase-like protein [Amsonia hubrichtii]</Hit_def>
+  <Hit_accession>AGX93046</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>3.00268e-27</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MEMDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEMDMDIIRKAIAASVFALVLAWAWRVLDWAWFTPKRLEKRLRQQGYKGNAYRF</Hsp_hseq>
+      <Hsp_midline>MEMDMDIIRKAIAA++FALV+AWAWRVLDWAWFTPKR+EKRLRQQG++GN YRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|AGX93047.1|</Hit_id>
+  <Hit_def>secologanin synthase-like protein [Rauvolfia serpentina]</Hit_def>
+  <Hit_accession>AGX93047</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>3.18213e-26</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MEMDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEMDMDTIRKAIATAVFALVVAWAWRVLDWAWFTPKRIEKRLRQQGFKGNAYRF</Hsp_hseq>
+      <Hsp_midline>MEMDMD IRKAIA  +FALV+AWAWRVLDWAWFTPKRIEKRLRQQGF+GN YRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|AGX93049.1|</Hit_id>
+  <Hit_def>secologanin synthase-like protein [Vinca minor]</Hit_def>
+  <Hit_accession>AGX93049</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>5.86378e-24</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MEMDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEMDMDTIRKTIATTVFIVLVAWAWRVLDWAWFTPKRLEKRLRQQGFKGNSYKF</Hsp_hseq>
+      <Hsp_midline>MEMDMD IRK IA T+F +++AWAWRVLDWAWFTPKR+EKRLRQQGF+GN Y+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|AAA17746.1|</Hit_id>
+  <Hit_def>cytochrome P450, partial [Catharanthus roseus]</Hit_def>
+  <Hit_accession>AAA17746</Hit_accession>
+  <Hit_len>516</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>9.39521e-23</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>IAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>IAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_hseq>
+      <Hsp_midline>IAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|QWX38536.1|</Hit_id>
+  <Hit_def>secologanin synthase 1 [Ophiorrhiza pumila]</Hit_def>
+  <Hit_accession>QWX38536</Hit_accession>
+  <Hit_len>522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>3.16338e-21</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MEMDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEMDI-IIRQAIAASFFLALVAWAWRVLNWAWFTPKSIEKRLRQQGFKGNPYRF</Hsp_hseq>
+      <Hsp_midline>MEMD+ IIR+AIAA+ F  ++AWAWRVL+WAWFTPK IEKRLRQQGF+GNPYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|AGX93045.1|</Hit_id>
+  <Hit_def>secologanin synthase-like protein, partial [Cinchona calisaya]</Hit_def>
+  <Hit_accession>AGX93045</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>3.77476e-21</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>MDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MDIIHQAIAATCIVALFAWAWRVLNWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_hseq>
+      <Hsp_midline>MDII +AIAAT    + AWAWRVL+WAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>dbj|BAP90521.1|</Hit_id>
+  <Hit_def>secologanin synthase [Ophiorrhiza pumila]</Hit_def>
+  <Hit_accession>BAP90521</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>8.56098e-20</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>MDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MDI-IIRQAIAASFFLALVAWAWRVLNWAWFTPKSIEKRLRQQGFKGNPYRF</Hsp_hseq>
+      <Hsp_midline>MD+ IIR+AIAA+ F  ++AWAWRVL+WAWFTPK IEKRLRQQGF+GNPYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>dbj|BBI55002.1|</Hit_id>
+  <Hit_def>secologanin synthase [Swertia japonica]</Hit_def>
+  <Hit_accession>BBI55002</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.3424e-19</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>MDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEVELIKKALVASCLALVVAWVWRILDWAWFTPKRIEKRLREQGFNGNPYKL</Hsp_hseq>
+      <Hsp_midline>M++++I+KA+ A+  ALV+AW WR+LDWAWFTPKRIEKRLR+QGF GNPY+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|QWX38537.1|</Hit_id>
+  <Hit_def>secologanin synthase 2 [Ophiorrhiza pumila]</Hit_def>
+  <Hit_accession>QWX38537</Hit_accession>
+  <Hit_len>526</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>1.74264e-17</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>MEMDMDIIRKAIAATIFALVM-AWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEMDT-IMQKAIVASCLVIVLVAWGWRVLNWAWFTPKRIERKLRHQGFRGNPYRF</Hsp_hseq>
+      <Hsp_midline>MEMD  I++KAI A+   +V+ AW WRVL+WAWFTPKRIE++LR QGFRGNPYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|QWX38538.1|</Hit_id>
+  <Hit_def>secologanin synthase 3 [Ophiorrhiza pumila]</Hit_def>
+  <Hit_accession>QWX38538</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>6.17777e-17</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>MDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEMDIILEAIAAFCFLAIFGLAWRVLDWALFAPKRLEKRLRQQGFKGNPYRF</Hsp_hseq>
+      <Hsp_midline>M+MDII +AIAA  F  +   AWRVLDWA F PKR+EKRLRQQGF+GNPYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|KAA8526716.1|</Hit_id>
+  <Hit_def>hypothetical protein F0562_009055 [Nyssa sinensis]</Hit_def>
+  <Hit_accession>KAA8526716</Hit_accession>
+  <Hit_len>522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>8.70625e-17</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>MDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEMEVMYKSIAASLAVVFLVWVWRILNWAWLTPKRIEKRLRQQGFNGNPYRL</Hsp_hseq>
+      <Hsp_midline>M+M+++ K+IAA++  + + W WR+L+WAW TPKRIEKRLRQQGF GNPYR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|AGX93044.1|</Hit_id>
+  <Hit_def>secologanin synthase-like protein, partial [Lonicera japonica]</Hit_def>
+  <Hit_accession>AGX93044</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.32261e-16</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>MDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEVELIHKTIGVSILFGILLWAWRVLNWAWFTPKKLEKKLRDQGFKGNPYRF</Hsp_hseq>
+      <Hsp_midline>M++++I K I  +I   ++ WAWRVL+WAWFTPK++EK+LR QGF+GNPYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|KAA8526717.1|</Hit_id>
+  <Hit_def>hypothetical protein F0562_009054 [Nyssa sinensis]</Hit_def>
+  <Hit_accession>KAA8526717</Hit_accession>
+  <Hit_len>522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>2.22364e-16</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>MDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEMELMYKSIAASLAVVFLVWVWRMLNWAWLTPKRIEKRLRQQGFNGNPYRL</Hsp_hseq>
+      <Hsp_midline>M+M+++ K+IAA++  + + W WR+L+WAW TPKRIEKRLRQQGF GNPYR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|KAA8524066.1|</Hit_id>
+  <Hit_def>hypothetical protein F0562_010503 [Nyssa sinensis]</Hit_def>
+  <Hit_accession>KAA8524066</Hit_accession>
+  <Hit_len>522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>1.00718e-14</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>MDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEMEVMYKSIAASFAVVFLIYAWKILNWAWFKPKSIEKRLRQQGFKGNSYRF</Hsp_hseq>
+      <Hsp_midline>M+M+++ K+IAA+   + + +AW++L+WAWF PK IEKRLRQQGF+GN YRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|KAA8526713.1|</Hit_id>
+  <Hit_def>hypothetical protein F0562_009058 [Nyssa sinensis]</Hit_def>
+  <Hit_accession>KAA8526713</Hit_accession>
+  <Hit_len>522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>1.43024e-14</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>MDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEMELMYKSIAASLAVVFLVGVWRMLNWAWLTPKRIEKRLRQQGFNGNPYRL</Hsp_hseq>
+      <Hsp_midline>M+M+++ K+IAA++  + +   WR+L+WAW TPKRIEKRLRQQGF GNPYR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|AZZ89571.1|</Hit_id>
+  <Hit_def>cytochrome P450 monooxygenase [Lagerstroemia speciosa]</Hit_def>
+  <Hit_accession>AZZ89571</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.20355e-13</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRFNF</Hsp_qseq>
+      <Hsp_hseq>MELPAISIGIGSVLLALAVTWAWRVLNWVWLKPKRLERLLREQGFKGNPYRFLF</Hsp_hseq>
+      <Hsp_midline>M++  I   I + + AL + WAWRVL+W W  PKR+E+ LR+QGF+GNPYRF F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_031406698.1|</Hit_id>
+  <Hit_def>cytochrome P450 CYP72A219-like [Punica granatum] &gt;gb|OWM88554.1| hypothetical protein CDL15_Pgr002321 [Punica granatum]</Hit_def>
+  <Hit_accession>XP_031406698</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>1.47654e-13</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>AIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRFNF</Hsp_qseq>
+      <Hsp_hseq>GIGLAIFALTLAWAWRVLDWVWLRPKKLERLLREQGFNGNPYRFLF</Hsp_hseq>
+      <Hsp_midline> I   IFAL +AWAWRVLDW W  PK++E+ LR+QGF GNPYRF F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|AZZ89573.1|</Hit_id>
+  <Hit_def>cytochrome P450 monooxygenase [Lagerstroemia speciosa]</Hit_def>
+  <Hit_accession>AZZ89573</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>2.28806e-13</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>AIAATIFALV-MAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRFNF</Hsp_qseq>
+      <Hsp_hseq>AIGLSVFALVAVAWAWRVLDWVWLRPKKLERLLREQGFKGNPYRFLF</Hsp_hseq>
+      <Hsp_midline>AI  ++FALV +AWAWRVLDW W  PK++E+ LR+QGF+GNPYRF F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|QNL13418.1|</Hit_id>
+  <Hit_def>CYP72A730 [Camptotheca acuminata]</Hit_def>
+  <Hit_accession>QNL13418</Hit_accession>
+  <Hit_len>519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>2.45145e-13</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>MDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEMELMYKSITASLAVVFLVYFWRALNWAWFKPKMIEKRLRQQGFNGNPYRL</Hsp_hseq>
+      <Hsp_midline>M+M+++ K+I A++  + + + WR L+WAWF PK IEKRLRQQGF GNPYR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|QDC27812.1|</Hit_id>
+  <Hit_def>CYP72A565 [Camptotheca acuminata] &gt;gb|QNL13417.2| CYP72A565 [synthetic construct]</Hit_def>
+  <Hit_accession>QDC27812</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>2.62951e-13</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MEMDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEIQMDVLYKSIAASVAVVFLVYAWKMLNWAYLTPKRIEKCLRKQGFKGNSYRL</Hsp_hseq>
+      <Hsp_midline>ME+ MD++ K+IAA++  + + +AW++L+WA+ TPKRIEK LR+QGF+GN YR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|ADU19849.1|</Hit_id>
+  <Hit_def>putative secologanin synthase [Camptotheca acuminata]</Hit_def>
+  <Hit_accession>ADU19849</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>2.62951e-13</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MEMDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEIQMDVLYKSIAASVAVVFLVYAWKMLNWAYLTPKRIEKCLRKQGFKGNSYRL</Hsp_hseq>
+      <Hsp_midline>ME+ MD++ K+IAA++  + + +AW++L+WA+ TPKRIEK LR+QGF+GN YR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|QNL13416.1|</Hit_id>
+  <Hit_def>CYP72A564 [Camptotheca acuminata]</Hit_def>
+  <Hit_accession>QNL13416</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>4.15392e-13</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MEMDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEIQMDVLYKSIAASVAVVFLVYAWKMLNWAYLTPKRIEKCLRKQGFKGNSYRL</Hsp_hseq>
+      <Hsp_midline>ME+ MD++ K+IAA++  + + +AW++L+WA+ TPKRIEK LR+QGF+GN YR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|QDC27813.1|</Hit_id>
+  <Hit_def>CYP72A610 [Camptotheca acuminata]</Hit_def>
+  <Hit_accession>QDC27813</Hit_accession>
+  <Hit_len>522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>8.95153e-13</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>MDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MKMEVMHMSVAASLAVVFLVCIWRALNWAWFMPKKIEKRLRQQGFNGNPYRL</Hsp_hseq>
+      <Hsp_midline>M M+++  ++AA++  + +   WR L+WAWF PK+IEKRLRQQGF GNPYR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_025610588.1|</Hit_id>
+  <Hit_def>cytochrome P450 716A67 isoform X1 [Arachis hypogaea]</Hit_def>
+  <Hit_accession>XP_025610588</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>1.47292e-12</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYR</Hsp_qseq>
+      <Hsp_hseq>AIAVTVMILAMIWGWKVLNWLWLTPKKLEKRLREQGFKGSPYR</Hsp_hseq>
+      <Hsp_midline>AIA T+  L M W W+VL+W W TPK++EKRLR+QGF+G+PYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_025610589.1|</Hit_id>
+  <Hit_def>cytochrome P450 716A67 isoform X2 [Arachis hypogaea] &gt;gb|QHO28785.1| Cytochrome P450 [Arachis hypogaea] &gt;gb|RYR50237.1| hypothetical protein Ahy_A07g036845 [Arachis hypogaea]</Hit_def>
+  <Hit_accession>XP_025610589</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>1.717e-12</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYR</Hsp_qseq>
+      <Hsp_hseq>AIAVTVMILAMIWGWKVLNWLWLTPKKLEKRLREQGFKGSPYR</Hsp_hseq>
+      <Hsp_midline>AIA T+  L M W W+VL+W W TPK++EKRLR+QGF+G+PYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|AGX93048.1|</Hit_id>
+  <Hit_def>secologanin synthase-like protein [Tabernaemontana elegans]</Hit_def>
+  <Hit_accession>AGX93048</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>1.83978e-12</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MEMDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEMDMDTIRKAIAASVFVVVVAWAWRVLEWAWFTPKRIEKRLRQQGFRGNSYTF</Hsp_hseq>
+      <Hsp_midline>MEMDMD IRKAIAA++F +V+AWAWRVL+WAWFTPKRIEKRLRQQGFRGN Y F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_031404505.1|</Hit_id>
+  <Hit_def>cytochrome P450 CYP72A219-like [Punica granatum]</Hit_def>
+  <Hit_accession>XP_031404505</Hit_accession>
+  <Hit_len>548</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>3.69346e-12</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>RESSEQMEMDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>RKKHKQMEMSAMSI--GVGLAILALALSWAWRVLNWLWLRPKKLERLLREQGFKGNPYRL</Hsp_hseq>
+      <Hsp_midline>R+  +QMEM    I   +   I AL ++WAWRVL+W W  PK++E+ LR+QGF+GNPYR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|PKI58935.1|</Hit_id>
+  <Hit_def>hypothetical protein CRG98_020681 [Punica granatum]</Hit_def>
+  <Hit_accession>PKI58935</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>4.1619e-12</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>AIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRFNF</Hsp_qseq>
+      <Hsp_hseq>GIGLAILALAVAWAWRVLNWVWLRPKKLERLLREQGFKGNPYKFLY</Hsp_hseq>
+      <Hsp_midline> I   I AL +AWAWRVL+W W  PK++E+ LR+QGF+GNPY+F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_016478701.1|</Hit_id>
+  <Hit_def>PREDICTED: cytochrome P450 CYP72A219-like [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>XP_016478701</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>4.76094e-12</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>MEMDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRFNF</Hsp_qseq>
+      <Hsp_hseq>MEISYYSLKIAISSFVVIFILKWAWKILNWVWFKPKELEKCLRQQGFKGNSYRFLF</Hsp_hseq>
+      <Hsp_midline>ME+    ++ AI++ +   ++ WAW++L+W WF PK +EK LRQQGF+GN YRF F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_009790250.1|</Hit_id>
+  <Hit_def>PREDICTED: cytochrome P450 CYP72A219-like [Nicotiana sylvestris]</Hit_def>
+  <Hit_accession>XP_009790250</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>4.9498e-12</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>MEMDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRFNF</Hsp_qseq>
+      <Hsp_hseq>MEISYYSLKIAISSFVVIFILKWAWKILNWVWFKPKELEKCLRQQGFKGNSYRFLF</Hsp_hseq>
+      <Hsp_midline>ME+    ++ AI++ +   ++ WAW++L+W WF PK +EK LRQQGF+GN YRF F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_020965212.1|</Hit_id>
+  <Hit_def>cytochrome P450 CYP72A219 isoform X3 [Arachis ipaensis]</Hit_def>
+  <Hit_accession>XP_020965212</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>5.2062e-12</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYR</Hsp_qseq>
+      <Hsp_hseq>AIAVTVMILAVIWGWKVLNWLWLTPKKLEKRLREQGFKGSPYR</Hsp_hseq>
+      <Hsp_midline>AIA T+  L + W W+VL+W W TPK++EKRLR+QGF+G+PYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_020965210.1|</Hit_id>
+  <Hit_def>cytochrome P450 CYP72A219 isoform X1 [Arachis ipaensis]</Hit_def>
+  <Hit_accession>XP_020965210</Hit_accession>
+  <Hit_len>548</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>5.2409e-12</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYR</Hsp_qseq>
+      <Hsp_hseq>AIAVTVMILAVIWGWKVLNWLWLTPKKLEKRLREQGFKGSPYR</Hsp_hseq>
+      <Hsp_midline>AIA T+  L + W W+VL+W W TPK++EKRLR+QGF+G+PYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_020965211.1|</Hit_id>
+  <Hit_def>cytochrome P450 CYP72A219 isoform X2 [Arachis ipaensis]</Hit_def>
+  <Hit_accession>XP_020965211</Hit_accession>
+  <Hit_len>541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>6.0533e-12</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYR</Hsp_qseq>
+      <Hsp_hseq>AIAVTVMILAVIWGWKVLNWLWLTPKKLEKRLREQGFKGSPYR</Hsp_hseq>
+      <Hsp_midline>AIA T+  L + W W+VL+W W TPK++EKRLR+QGF+G+PYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|KAH1120680.1|</Hit_id>
+  <Hit_def>hypothetical protein J1N35_003840 [Gossypium stocksii]</Hit_def>
+  <Hit_accession>KAH1120680</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>6.07323e-12</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>IIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>VIRDLVSLLIVGLLMIWGWRALNWVWLTPKRLERCLKQQGFAGNPYRF</Hsp_hseq>
+      <Hsp_midline>+IR  ++  I  L+M W WR L+W W TPKR+E+ L+QQGF GNPYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_019227984.1|</Hit_id>
+  <Hit_def>PREDICTED: cytochrome P450 CYP72A219-like [Nicotiana attenuata] &gt;gb|OIT31039.1| cytochrome p450 cyp72a219 [Nicotiana attenuata]</Hit_def>
+  <Hit_accession>XP_019227984</Hit_accession>
+  <Hit_len>519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>6.3161e-12</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>MEMDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRFNF</Hsp_qseq>
+      <Hsp_hseq>MEISYYSLKIAVSSFVVIFVLKWAWKILNWVWFKPKELEKCLRQQGFKGNSYRFLF</Hsp_hseq>
+      <Hsp_midline>ME+    ++ A+++ +   V+ WAW++L+W WF PK +EK LRQQGF+GN YRF F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_025671248.1|</Hit_id>
+  <Hit_def>cytochrome P450 716A67 isoform X1 [Arachis hypogaea]</Hit_def>
+  <Hit_accession>XP_025671248</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>6.45733e-12</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYR</Hsp_qseq>
+      <Hsp_hseq>AIAVTVMILAVIWGWKVLNWLWLTPKKLEKRLREQGFKGSPYR</Hsp_hseq>
+      <Hsp_midline>AIA T+  L + W W+VL+W W TPK++EKRLR+QGF+G+PYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|QHN96936.1|</Hit_id>
+  <Hit_def>Cytochrome P450 [Arachis hypogaea] &gt;gb|RYQ95394.1| hypothetical protein Ahy_B08g090674 [Arachis hypogaea]</Hit_def>
+  <Hit_accession>QHN96936</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>6.76516e-12</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYR</Hsp_qseq>
+      <Hsp_hseq>AIAVTVMILAVIWGWKVLNWLWLTPKKLEKRLREQGFKGSPYR</Hsp_hseq>
+      <Hsp_midline>AIA T+  L + W W+VL+W W TPK++EKRLR+QGF+G+PYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_020983455.1|</Hit_id>
+  <Hit_def>cytochrome P450 CYP72A219 isoform X1 [Arachis duranensis]</Hit_def>
+  <Hit_accession>XP_020983455</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>6.779e-12</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYR</Hsp_qseq>
+      <Hsp_hseq>AIAVTVMILAVIWGWKVLNWLWLTPKKLEKRLREQGFKGSPYR</Hsp_hseq>
+      <Hsp_midline>AIA T+  L + W W+VL+W W TPK++EKRLR+QGF+G+PYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_025671249.1|</Hit_id>
+  <Hit_def>cytochrome P450 716A67 isoform X2 [Arachis hypogaea]</Hit_def>
+  <Hit_accession>XP_025671249</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>7.03348e-12</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYR</Hsp_qseq>
+      <Hsp_hseq>AIAVTVMILAVIWGWKVLNWLWLTPKKLEKRLREQGFKGSPYR</Hsp_hseq>
+      <Hsp_midline>AIA T+  L + W W+VL+W W TPK++EKRLR+QGF+G+PYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_015932345.1|</Hit_id>
+  <Hit_def>cytochrome P450 CYP72A219 isoform X2 [Arachis duranensis]</Hit_def>
+  <Hit_accession>XP_015932345</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>7.45603e-12</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYR</Hsp_qseq>
+      <Hsp_hseq>AIAVTVMILAVIWGWKVLNWLWLTPKKLEKRLREQGFKGSPYR</Hsp_hseq>
+      <Hsp_midline>AIA T+  L + W W+VL+W W TPK++EKRLR+QGF+G+PYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_031393985.1|</Hit_id>
+  <Hit_def>cytochrome P450 CYP72A219-like isoform X1 [Punica granatum]</Hit_def>
+  <Hit_accession>XP_031393985</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>8.86575e-12</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>AIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>GIGLAILALAVAWAWRVLNWVWLRPKKLERLLREQGFKGNPYKF</Hsp_hseq>
+      <Hsp_midline> I   I AL +AWAWRVL+W W  PK++E+ LR+QGF+GNPY+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|OWM88662.1|</Hit_id>
+  <Hit_def>hypothetical protein CDL15_Pgr002429 [Punica granatum]</Hit_def>
+  <Hit_accession>OWM88662</Hit_accession>
+  <Hit_len>519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>1.02707e-11</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>MDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEMSAMSIGVGLAILALALSWAWRVLNWLWLRPKKLERLLREQGFKGNPYRL</Hsp_hseq>
+      <Hsp_midline>M+M  +   +   I AL ++WAWRVL+W W  PK++E+ LR+QGF+GNPYR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|PKI37626.1|</Hit_id>
+  <Hit_def>hypothetical protein CRG98_041919 [Punica granatum]</Hit_def>
+  <Hit_accession>PKI37626</Hit_accession>
+  <Hit_len>519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>1.03711e-11</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>MDMDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRF</Hsp_qseq>
+      <Hsp_hseq>MEMSAMSIGVGLAILALALSWAWRVLNWLWLRPKKLERLLREQGFKGNPYRL</Hsp_hseq>
+      <Hsp_midline>M+M  +   +   I AL ++WAWRVL+W W  PK++E+ LR+QGF+GNPYR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_022637115.1|</Hit_id>
+  <Hit_def>cytochrome P450 CYP72A219 isoform X2 [Vigna radiata var. radiata]</Hit_def>
+  <Hit_accession>XP_022637115</Hit_accession>
+  <Hit_len>519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>1.41564e-11</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>MDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRFNF</Hsp_qseq>
+      <Hsp_hseq>MEVVWRSIVIVMLIMVLIWAWRMLNWLWFTPKRLERLLREQGLQGNPYTLFF</Hsp_hseq>
+      <Hsp_midline>M+++ ++I   +  +V+ WAWR+L+W WFTPKR+E+ LR+QG +GNPY   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|KAG8363613.1|</Hit_id>
+  <Hit_def>hypothetical protein BUALT_Bualt19G0040700 [Buddleja alternifolia]</Hit_def>
+  <Hit_accession>KAG8363613</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>1.51445e-11</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>MDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRFNF</Hsp_qseq>
+      <Hsp_hseq>MEVLQLSVALSCVAVVLVYAWKILNWAWFRPRKLEKCLRQQGLRGNSYRFLF</Hsp_hseq>
+      <Hsp_midline>M++++ ++A +  A+V+ +AW++L+WAWF P+++EK LRQQG RGN YRF F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|KAG8363619.1|</Hit_id>
+  <Hit_def>hypothetical protein BUALT_Bualt19G0041300 [Buddleja alternifolia]</Hit_def>
+  <Hit_accession>KAG8363619</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>1.96918e-11</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>MDIIRKAIAATIFALVMAWAWRVLDWAWFTPKRIEKRLRQQGFRGNPYRFNF</Hsp_qseq>
+      <Hsp_hseq>MDVLQLSVALSCVAVVLVYAWKILNWAWFRPRKVEKCLRQQGLRGNSYRFLF</Hsp_hseq>
+      <Hsp_midline>MD+++ ++A +  A+V+ +AW++L+WAWF P+++EK LRQQG RGN YRF F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>456455275</Statistics_db-num>
+      <Statistics_db-len>1897754633</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more O characters replaced by X for alignment score calculations at positions 4, 14, 27, 31, 41</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
